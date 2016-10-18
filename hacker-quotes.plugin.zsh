@@ -62,7 +62,7 @@ if [[ -o login && -o interactive ]]; then
         "Some programming languages manage to absorb change, but withstand progress.\n―  Alan J. Perlis"
         "You can measure a programmer's perspective by noting his attitude on the continuing vitality of FORTRAN.\n―  Alan J. Perlis"
         "In software systems, it is often the early bird that makes the worm.\n―  Alan J. Perlis"
-        "44.Sometimes I think the only universal in the computing field is the fetch-execute cycle.\n―  Alan J. Perlis"
+        "Sometimes I think the only universal in the computing field is the fetch-execute cycle.\n―  Alan J. Perlis"
         "The goal of computation is the emulation of our synthetic abilities, not the understanding of our analytic ones.\n―  Alan J. Perlis"
         "Like punning, programming is a play on words.\n―  Alan J. Perlis"
         "As Will Rogers would have said, \"There is no such thing as a free variable.\"\n―  Alan J. Perlis"
