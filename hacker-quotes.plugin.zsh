@@ -140,6 +140,20 @@ if [[ -o login && -o interactive ]]; then
         "Programming is an unnatural act.\n―  Alan J. Perlis"
         "Adapting old programs to fit new machines usually means adapting new machines to behave like old ones.\n―  Alan J. Perlis"
         "Peace comes from thinking.\n―  N.S.A"
+        "Not everything worth doing is worth doing well.\n―  Tom West"
+
+        "Beware of bugs in the above code; I have only proved it correct, not tried it.\n- Donald E. Knuth"
+        "Science is knowledge which we understand so well that we can teach it to a computer; and if we don't fully understand something, it is an art to deal with it.\n- Donald E. Knuth"
+        "In fact, my main conclusion after spending ten years of my life working on the TEX project is that software is hard. It’s harder than anything else I’ve ever had to do.\n- Donald E. Knuth"
+        "Let us change our traditional attitude to the construction of programs: Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do.\n- Donald E. Knuth"
+        "The real problem is that programmers have spent far too much time worrying about efficiency in the wrong places and at the wrong times; premature optimization is the root of all evil (or at least most of it) in programming.\n- Donald E. Knuth"
+
+        "Testing shows the presence, not the absence of bugs\n- Edsger W. Dijkstra"
+        "The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague.\n- Edsger W. Dijkstra"
+        "LISP has been jokingly described as \"the most intelligent way to misuse a computer\". I think that description a great compliment because it transmits the full flavor of liberation: it has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts. \n- Edsger W. Dijkstra"
+        "Besides a mathematical inclination, an exceptionally good mastery of one's native tongue is the most vital asset of a competent programmer.\n- Edsger W. Dijkstra"
+        "Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better.\n- Edsger W. Dijkstra"
+        "My point today is that, if we wish to count lines of code, we should not regard them as \"lines produced\" but as \"lines spent\": the current conventional wisdom is so foolish as to book that count on the wrong side of the ledger.\n- Edsger W. Dijkstra"
     )
     echo "${hacker_quotes[$(($RANDOM % ${#hacker_quotes[@]} + 1))]}"
     echo
