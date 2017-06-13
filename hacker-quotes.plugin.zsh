@@ -139,6 +139,7 @@ if [[ -o login && -o interactive ]]; then
         "If you can imagine a society in which the computer- robot is the only menial, you can imagine anything.\n―  Alan J. Perlis"
         "Programming is an unnatural act.\n―  Alan J. Perlis"
         "Adapting old programs to fit new machines usually means adapting new machines to behave like old ones.\n―  Alan J. Perlis"
+        "Peace comes from thinking.\n―  N.S.A"
         "Not everything worth doing is worth doing well.\n―  Tom West"
 
         "Beware of bugs in the above code; I have only proved it correct, not tried it.\n- Donald E. Knuth"
