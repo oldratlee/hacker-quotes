@@ -1,11 +1,13 @@
 if [[ -o interactive ]] && [[ -o login || -n "${ZSH_HACKER_QUOTES_ENABLE_WHEN_INTERACTIVE+if_check_var_defined_will_got_output_or_nothing}" ]]; then
     hacker_quotes=(
         # Linus Torvalds
+        # https://en.wikiquote.org/wiki/Linus_Torvalds
         "Talk is cheap. Show me the code.\n - Linus Torvalds"
         "Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.\n - Linus Torvalds"
         "I'm an egotistical bastard, and I name all my projects after myself. First Linux, now git.\n - Linus Torvalds"
 
         # Alan J. Perlis
+        # https://en.wikiquote.org/wiki/Alan_Perlis
         "One man's constant is another man's variable.\n - Alan J. Perlis"
         "Functions delay binding; data structures induce binding. Moral: Structure data late in the programming process.\n - Alan J. Perlis"
         "Syntactic sugar causes cancer of the semicolon.\n - Alan J. Perlis"
@@ -128,6 +130,7 @@ if [[ -o interactive ]] && [[ -o login || -n "${ZSH_HACKER_QUOTES_ENABLE_WHEN_IN
         "Adapting old programs to fit new machines usually means adapting new machines to behave like old ones.\n - Alan J. Perlis"
 
         # Donald E. Knuth
+        # https://en.wikiquote.org/wiki/Donald_Knuth
         "Beware of bugs in the above code; I have only proved it correct, not tried it.\n - Donald E. Knuth"
         "Science is knowledge which we understand so well that we can teach it to a computer; and if we don't fully understand something, it is an art to deal with it.\n - Donald E. Knuth"
         "In fact, my main conclusion after spending ten years of my life working on the TEX project is that software is hard. It’s harder than anything else I’ve ever had to do.\n - Donald E. Knuth"
@@ -135,6 +138,7 @@ if [[ -o interactive ]] && [[ -o login || -n "${ZSH_HACKER_QUOTES_ENABLE_WHEN_IN
         "The real problem is that programmers have spent far too much time worrying about efficiency in the wrong places and at the wrong times; premature optimization is the root of all evil (or at least most of it) in programming.\n - Donald E. Knuth"
 
         # Edsger W. Dijkstra
+        # https://en.wikiquote.org/wiki/Edsger_W._Dijkstra
         "Testing shows the presence, not the absence of bugs.\n - Edsger W. Dijkstra"
         "The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague.\n - Edsger W. Dijkstra"
         "LISP has been jokingly described as \"the most intelligent way to misuse a computer\". I think that description a great compliment because it transmits the full flavor of liberation: it has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts.\n - Edsger W. Dijkstra"
