@@ -165,7 +165,7 @@ if [[ -o interactive ]] && [[ -o login || -n "${ZSH_HACKER_QUOTES_ENABLE_WHEN_IN
         "Not everything worth doing is worth doing well.\n - Tom West"
         "Peace comes from thinking.\n - N.S.A"
     )
-    echo "${hacker_quotes[$(($RANDOM % ${#hacker_quotes[@]} + 1))]}"
+    echo "${hacker_quotes[RANDOM % #hacker_quotes + 1]}"
     echo
     # release memory
     unset hacker_quotes
