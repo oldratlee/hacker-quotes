@@ -14,9 +14,6 @@ Step 1: Clone this repository in `oh-my-zsh`'s plugins directory:
 
 ```bash
 git clone https://github.com/oldratlee/hacker-quotes.git ~/.oh-my-zsh/custom/plugins/hacker-quotes
-
-# Or if you have set up the github SSH key pair correctly, clone with SSH:
-git clone git@github.com:oldratlee/hacker-quotes.git ~/.oh-my-zsh/custom/plugins/hacker-quotes
 ```
 
 Step 2: Activate the plugin in `~/.zshrc`:

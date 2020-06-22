@@ -59,7 +59,7 @@ if [[ -o interactive ]] && [[ -o login || -n "${ZSH_HACKER_QUOTES_ENABLE_WHEN_IN
         "Giving up on assembly language was the apple in our Garden of Eden: Languages whose use squanders machine cycles are sinful. The LISP machine now permits LISP programmers to abandon bra and fig-leaf.\n - Alan J. Perlis"
         "When we understand knowledge-based systems, it will be as before -- except our fingertips will have been singed.\n - Alan J. Perlis"
         "Bringing computers into the home won't change either one, but may revitalize the corner saloon.\n - Alan J. Perlis"
-        "Systems have sub-systems and sub-systems have sub- systems and so on ad infinitum - which is why we're always starting over.\n - Alan J. Perlis"
+        "Systems have sub-systems and sub-systems have sub-systems and so on ad infinitum - which is why we're always starting over.\n - Alan J. Perlis"
         "So many good ideas are never heard from again once they embark in a voyage on the semantic gulf.\n - Alan J. Perlis"
         "Beware of the Turing tar-pit in which everything is possible but nothing of interest is easy.\n - Alan J. Perlis"
         "A LISP programmer knows the value of everything, but the cost of nothing.\n - Alan J. Perlis"
