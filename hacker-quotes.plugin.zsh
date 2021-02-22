@@ -152,6 +152,7 @@ if [[ -o interactive ]] && [[ -o login || -n "${ZSH_HACKER_QUOTES_ENABLE_WHEN_IN
         # mics
         "There are two ways of constructing a software design. One way is to make it so simple that there are obviously no deficiencies. And the other way is to make it so complicated that there are no obvious deficiencies.\n - C.A.R. Hoare"
         "There are only two hard things in Computer Science: cache invalidation and naming things.\n - Phil Karlton"
+        "There are 2 hard problems in computer science: cache invalidation, naming things, and off-by-1 errors.\n - https://martinfowler.com/bliki/TwoHardThings.html"
         "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.\n - Martin Golding"
         "The trouble with programmers is that you can never tell what a programmer is doing until it’s too late.\n - Seymour Cray"
         "First learn computer science and all the theory. Next develop a programming style. Then forget all that and just hack.\n - George Carrette"
