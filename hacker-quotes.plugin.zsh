@@ -1,5 +1,8 @@
+# Development note:
+# use symbol prefix `_zp_hq_` (Zsh Plugin Hacker Quotes) to avoid naming conflict
+
 if [[ -o interactive ]] && [[ -o login || -n "${ZSH_HACKER_QUOTES_ENABLE_WHEN_INTERACTIVE+if_check_var_defined_will_got_output_or_nothing}" ]]; then
-    hacker_quotes=(
+    _zp_hq_hacker_quotes=(
         # Linus Torvalds
         # https://en.wikiquote.org/wiki/Linus_Torvalds
         "Talk is cheap. Show me the code.\n - Linus Torvalds"
@@ -166,8 +169,8 @@ if [[ -o interactive ]] && [[ -o login || -n "${ZSH_HACKER_QUOTES_ENABLE_WHEN_IN
         "Not everything worth doing is worth doing well.\n - Tom West"
         "Peace comes from thinking.\n - N.S.A"
     )
-    echo "${hacker_quotes[RANDOM % #hacker_quotes + 1]}"
-    echo
+
+    printf '%b\n\n' "${_zp_hq_hacker_quotes[RANDOM % #_zp_hq_hacker_quotes + 1]}"
     # release memory
-    unset hacker_quotes
+    unset _zp_hq_hacker_quotes
 fi
