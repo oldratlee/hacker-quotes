@@ -171,7 +171,7 @@ if [[ -o interactive ]] && [[ -o login || -n "${ZSH_HACKER_QUOTES_ENABLE_WHEN_IN
         "Peace comes from thinking.\n - N.S.A"
     )
 
-    printf '%b\n\n' "${_zp_hq_hacker_quotes[RANDOM % #_zp_hq_hacker_quotes + 1]}"
+    printf '%b\n\n' "${_zp_hq_hacker_quotes[RANDOM % $#_zp_hq_hacker_quotes + 1]}"
     # release memory
     unset _zp_hq_hacker_quotes
 fi
