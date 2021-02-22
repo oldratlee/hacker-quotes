@@ -24,6 +24,19 @@ plugins=([plugins...] hacker-quotes)
 
 Congratulations! Open a new terminal and check it! :sparkles:
 
+Additional Configuration
+------------------------
+
+Default only print hacker quotes when shell is a interactive login shell.
+
+If you want just checking for an interactive shell, set var `ZSH_HACKER_QUOTES_ENABLE_WHEN_INTERACTIVE`.
+
+For example:
+
+```bash
+ZSH_HACKER_QUOTES_ENABLE_WHEN_INTERACTIVE= zsh -i
+```
+
 More zsh plugins
 --------------------
 
