@@ -1,7 +1,7 @@
 🎩 hacker-quotes
 ============================
 
-An [`oh-my-zsh`](https://github.com/robbyrussell/oh-my-zsh) plugin, just print a hacker quote randomly when you open a terminal.
+An [`oh-my-zsh`](https://github.com/robbyrussell/oh-my-zsh) plugin, just print a hacker quote randomly when open a terminal.
 
 ![Screenshot](images/preview.png)
 
@@ -27,7 +27,7 @@ Congratulations! Open a new terminal and check it! :sparkles:
 Additional Configuration
 ------------------------
 
-Default only print hacker quotes when shell is a interactive login shell.
+Default only print hacker quote when shell is an interactive login shell.
 
 If you want just checking for an interactive shell, set var `ZSH_HACKER_QUOTES_ENABLE_WHEN_INTERACTIVE`.
 
