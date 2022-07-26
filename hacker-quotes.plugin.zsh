@@ -1,7 +1,39 @@
-# Development note:
-# use symbol prefix `_zp_hq_` (Zsh Plugin Hacker Quotes) to avoid naming conflict
+# Just print a hacker quote randomly when open a terminal.
+#
+# Config Variables
+# ----------------------------------------
+#
+# ZSH_HACKER_QUOTES_ENABLE_WHEN_INTERACTIVE
+#   print quotes if print hacker quotes when shell is an interactive login shell,
+#     don't check whether shell is a login shell or not.
+#   default only print hacker quotes when shell is an interactive and login shell.
+#
+# Development Notes
+# ----------------------------------------
+#
+# use namespace `_zp_hq` (Zsh Plugin Hacker Quotes) to avoid naming conflict
 
-if [[ -o interactive ]] && [[ -o login || -n "${ZSH_HACKER_QUOTES_ENABLE_WHEN_INTERACTIVE+if_check_var_defined_will_got_output_or_nothing}" ]]; then
+_zp_hq::should_print_quote() {
+  if [[ ! -o interactive ]]; then
+    return 1
+  fi
+
+  if [[ -n "${ZSH_HACKER_QUOTES_ENABLE_WHEN_INTERACTIVE+var_defined_or_empty}" ]]; then
+    return 0
+  fi
+
+  [[ -o login ]]
+}
+
+_zp_hq::print_quote() {
+  if which fold &>/dev/null && [ -n "${COLUMNS:-}" ]; then
+    printf '%b\n\n' "$*" | fold -s -w $COLUMNS
+  else
+    printf '%b\n\n' "$*"
+  fi
+}
+
+if _zp_hq::should_print_quote; then
   _zp_hq_hacker_quotes=(
     # Linus Torvalds
     # https://en.wikiquote.org/wiki/Linus_Torvalds
@@ -171,12 +203,7 @@ if [[ -o interactive ]] && [[ -o login || -n "${ZSH_HACKER_QUOTES_ENABLE_WHEN_IN
     "Peace comes from thinking.\n - N.S.A"
   )
 
-  printf '%b\n\n' "${_zp_hq_hacker_quotes[RANDOM % $#_zp_hq_hacker_quotes + 1]}" |
-    if which fold &>/dev/null; then
-      fold -s -w $COLUMNS
-    else
-      cat
-    fi
+  _zp_hq::print_quote "${_zp_hq_hacker_quotes[RANDOM % $#_zp_hq_hacker_quotes + 1]}"
 
   # release memory
   unset _zp_hq_hacker_quotes
