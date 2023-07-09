@@ -120,7 +120,6 @@ if _zp_hq::should_print_quote; then
     "Because of its vitality, the computing field is always in desperate need of new cliches: Banality soothes our nerves.\n - Alan J. Perlis"
     "It is the user who should parameterize procedures, not their creators.\n - Alan J. Perlis"
     "The cybernetic exchange between man, computer and algorithm is like a game of musical chairs: The frantic search for balance always leaves one of the three standing ill at ease.\n - Alan J. Perlis"
-    "If your computer speaks English, it was probably made in Japan.\n - Alan J. Perlis"
     "A year spent in artificial intelligence is enough to make one believe in God.\n - Alan J. Perlis"
     "Prolonged contact with the computer turns mathematicians into clerks and vice versa.\n - Alan J. Perlis"
     "In computing, turning the obvious into the useful is a living definition of the word \"frustration\".\n - Alan J. Perlis"
@@ -180,27 +179,32 @@ if _zp_hq::should_print_quote; then
     "Besides a mathematical inclination, an exceptionally good mastery of one's native tongue is the most vital asset of a competent programmer.\n - Edsger W. Dijkstra"
     "Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better.\n - Edsger W. Dijkstra"
     "My point today is that, if we wish to count lines of code, we should not regard them as \"lines produced\" but as \"lines spent\": the current conventional wisdom is so foolish as to book that count on the wrong side of the ledger.\n - Edsger W. Dijkstra"
+    "The computing scientist's main challenge is not to get confused by the complexities of his own making.\n - Edsger W. Dijkstra"
 
     # mics
+    "I would love to change the world, but they won't give me the source code.\n - Anonymous"
+    "Peace comes from thinking.\n - N.S.A"
+    "Not everything worth doing is worth doing well.\n - Tom West"
+
+    "Incorrect documentation is often worse than no documentation.\n - Bertrand Meyer"
+    "Correctness is clearly the prime quality. If a system does not do what it is supposed to do, then everything else about it matters little.\n - Bertrand Meyer"
     "There are two ways of constructing a software design. One way is to make it so simple that there are obviously no deficiencies. And the other way is to make it so complicated that there are no obvious deficiencies.\n - C.A.R. Hoare"
+
     "There are only two hard things in Computer Science: cache invalidation and naming things.\n - Phil Karlton"
-    "There are 2 hard problems in computer science: cache invalidation, naming things, and off-by-1 errors.\n - https://martinfowler.com/bliki/TwoHardThings.html"
+    "There are 2 hard problems in computer science: cache invalidation, naming things, and off-by-1 errors.\n - Tim Bray (https://martinfowler.com/bliki/TwoHardThings.html)"
+
+    "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.\n - Martin Fowler"
+    "I am not a great programmer; I am just a good programmer with great habits.\n - Kent Beck"
+    "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.\n - Brian W. Kernighan"
+
     "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.\n - Martin Golding"
     "The trouble with programmers is that you can never tell what a programmer is doing until it’s too late.\n - Seymour Cray"
     "First learn computer science and all the theory. Next develop a programming style. Then forget all that and just hack.\n - George Carrette"
-    "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.\n - Brian W. Kernighan"
     "Measuring programming progress by lines of code is like measuring aircraft building progress by weight.\n - Bill Gates"
     "The best programmers are not marginally better than merely good ones. They are an order-of-magnitude better, measured by whatever standard: conceptual creativity, speed, ingenuity of design, or problem-solving ability.\n - Randall E. Stross"
     "For a long time it puzzled me how something so expensive, so leading edge, could be so useless. And then it occurred to me that a computer is a stupid machine with the ability to do incredibly smart things, while computer programmers are smart people with the ability to do incredibly stupid things. They are, in short, a perfect match.\n - Bill Bryson"
     "You can’t have great software without a great team, and most software teams behave like dysfunctional families.\n - Jim McCarthy"
-    "Incorrect documentation is often worse than no documentation.\n - Bertrand Meyer"
-    "Correctness is clearly the prime quality. If a system does not do what it is supposed to do, then everything else about it matters little.\n - Bertrand Meyer"
-    "I would love to change the world, but they won't give me the source code.\n - Anonymous"
-    "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.\n - Martin Fowler"
-    "I am not a great programmer; I am just a good programmer with great habits.\n - Kent Beck"
     "A Computer is a state machine. Threads are for people who can't program state machines.\n - Alan Cox"
-    "Not everything worth doing is worth doing well.\n - Tom West"
-    "Peace comes from thinking.\n - N.S.A"
   )
 
   _zp_hq::print_quote "${_zp_hq_hacker_quotes[RANDOM % $#_zp_hq_hacker_quotes + 1]}"
